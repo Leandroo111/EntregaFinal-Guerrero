@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body { /* Fondo de la pagina gris */
+    background-color: #292929;
+}
