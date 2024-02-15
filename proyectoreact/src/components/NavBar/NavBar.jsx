@@ -1,6 +1,6 @@
-import React from 'react'
 import './NavBar.css'
 import CartWidget from '../CartWidget/CartWidget'
+import { Link } from 'react-router-dom'
 
 
 function NavBar() {
@@ -8,15 +8,33 @@ function NavBar() {
         <>
             <div className='navbar'>
 
-            <h1>CompuShop</h1> {/* Haciendo click en el logo se va a poder volver al inicio de la pagina */}
+                <Link to = {'/'}>
 
-            <ul>
-                <li><a>Categorias</a></li>
-                <li><a>Notebooks</a></li>
-                <li><a>PCs Armadas</a></li>
-                <li><a>Ofertas</a></li>
-            </ul>
-            <CartWidget />
+                    <h1>CompuShop</h1>
+
+                </Link>
+
+                <ul>
+
+                    <li>
+                        <Link to = {'Categoria/gpu'}>Placas de Video</Link>
+                    </li>
+
+                    <li>
+                        <Link to = {'Categoria/notebooks'}>Notebooks</Link>
+                    </li>
+
+                    <li>
+                        <Link to = {'Categoria/pc-armada'}>PCs Armadas</Link>
+                    </li>
+
+                    <li>
+                        <Link to = {'Categoria/procesadores'}>Microprocesadores</Link>
+                    </li>
+
+                </ul>
+
+                <CartWidget/>
 
             </div>
         </>

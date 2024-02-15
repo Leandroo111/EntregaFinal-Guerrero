@@ -1,6 +1,10 @@
-import './App.css'
-import NavBar from './components/NavBar/NavBar'
-import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+import React from 'react';
+import './App.css';
+import NavBar from './components/NavBar/NavBar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
+import Error from './components/Error/Error'
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
 function App() {
 
@@ -8,13 +12,21 @@ function App() {
   return (
     <>
 
-      <div>
+    <BrowserRouter>
 
-        <NavBar />
+      <NavBar/>
 
-        <ItemListContainer greeting={"Bienvenidos a mi E-Commerce"} />
+      <Routes>
+    
+        <Route path='/' element = {<ItemListContainer/>}/>
+        <Route path='/Categoria/:categoryId' element = {<ItemListContainer/>}/>
+        <Route path='/Producto/:itemId' element = {<ItemDetailContainer/>}/>
+        <Route path='*' element = {<Error/>}/>
 
-      </div>
+      </Routes>
+
+    </BrowserRouter>
+
     </>
   )
 }

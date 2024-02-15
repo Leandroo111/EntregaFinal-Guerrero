@@ -1,0 +1,47 @@
+.productos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    margin-top:6rem;
+}
+.productos h2 {
+    font-size: 3.3rem;
+    width: 80rem;
+    text-align: center;
+    position: relative;
+    margin-top: 10rem;
+    left: 10rem;
+    bottom: 5rem;
+}
+.productos img {
+    width: 50vh;
+    height: 50vh;
+    margin-top: 4rem;
+    margin-left: 15rem;
+}
+.productos h3 {
+    font-size: 4rem;
+    margin-top: 2rem;
+    text-align: center;
+    position: relative;
+    left: 10rem;
+    color: #3681da;
+}
+
+.productos h4 {
+    font-size: 3.5rem;
+    margin-top: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+    position: relative;
+    left: 10rem;
+}
+
+.texto {
+    color: antiquewhite !important;
+}
+
+.precio-tarjeta {
+    color: aquamarine !important;
+}

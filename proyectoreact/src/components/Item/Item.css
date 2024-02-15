@@ -1,0 +1,24 @@
+
+
+.cardProductos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardProductos p{
+    margin-inline: 1rem;
+    font-size: 3rem;
+    color: antiquewhite;
+    margin-top: 1rem;
+}
+
+.cardProductos img {
+    width: 20vh;
+    height: 20vh;
+}
+
+.precio {
+    color: #3681da !important;
+}
