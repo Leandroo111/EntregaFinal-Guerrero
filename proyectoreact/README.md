@@ -1,8 +1,5 @@
-# React + Vite
+Proyecto desarrosado por: Leandro Guerrero
+Proyecto con fines educativos para el curso de react de Coderhouse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Como inicializar el proyecto: Para inicializar el proyecto hay que entrar en la terminal y estando en la capeta raiz del proyecto introducir el comando "npm intall ..." con las diferentes depencias que se encuentran el el package.json, lo que generara una carpeta llamada node_modules. Una vez instaladas se debe introducir el siguiente comando "npm run dev". Una vez introducido el comando copiar el link del local host proporcionado y pegarlo en el buscador de tu navegador. Por ultimo se debe crear un archivo llamado ".env" en la carpeta raiz del proyecto y copiar las variables de entorno (proporcionada por el desarrollador).

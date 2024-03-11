@@ -105,7 +105,7 @@ const Checkout = () => {
 
                     <div>
                         <label htmlFor="Nombre"> <p>Nombre</p></label>
-                        <input name="Nombre" type='text' onChange={(e) => setNombre(e.target.value)}/>
+                        <input name="Nombre" type='text' pattern='[A-Za-z]' onChange={(e) => setNombre(e.target.value)}/>
                     </div>
 
                     <div>
