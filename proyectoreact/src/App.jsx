@@ -1,14 +1,11 @@
-import {useState,useEffect} from 'react';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import Error from './components/Error/Error'
-import ThemeProvider from './context/ThemeContext/ThemeContext';
 import Cart from './components/Cart/Cart';
 import CartProvider from './context/CartContext/CartContext';
 import Checkout from './components/Checkout/Checkout';
-import DarkComponent from './components/DarkComponent/DarkComponent';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
 function App() {
