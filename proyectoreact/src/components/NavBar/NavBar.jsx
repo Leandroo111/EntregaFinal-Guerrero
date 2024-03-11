@@ -10,7 +10,7 @@ function NavBar() {
 
                 <Link to = {'/'}>
 
-                    <h1>CompuShop</h1>
+                    <main className='marca'>CompuShop</main>
 
                 </Link>
 

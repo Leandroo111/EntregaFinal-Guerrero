@@ -1,0 +1,29 @@
+.contador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 20rem;
+}
+
+.contador p{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-inline: 1rem;
+    
+}
+
+.contador button {
+    background-color: #3681da;
+    border-radius: .8rem;
+    border-width: .4rem;
+    border-color: #3870b4;
+    padding: .25rem;
+    font-size: 1.7rem;
+    color: antiquewhite;
+}
+
+.btn-agregar {
+    position: absolute;
+    bottom: 17.7rem;
+}

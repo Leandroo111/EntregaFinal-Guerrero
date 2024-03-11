@@ -1,24 +1,34 @@
-
-
-.cardProductos{
+.texto-productos{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
-.cardProductos p{
+.texto-productos p{
     margin-inline: 1rem;
-    font-size: 3rem;
-    color: antiquewhite;
+    font-size: 1.8rem;
+    color: black;
     margin-top: 1rem;
 }
 
-.cardProductos img {
-    width: 20vh;
-    height: 20vh;
+.texto-productos img {
+    width: 15vh;
+    height: 15vh;
 }
 
 .precio {
     color: #3681da !important;
+    font-size: 2.3rem !important;
+}
+
+.card-productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    width: 20rem;
+    border-radius: 5%;
+    border: 0.5rem solid #3681da;
+    padding: 2rem;
 }
